@@ -1,0 +1,4 @@
+<Files pass.txt>
+order allow,deny
+deny from all
+</Files>
